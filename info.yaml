@@ -27,35 +27,33 @@ documentation:
   description:  "Regulates the power or velocity at which a device functions. This PWM was designed to work with an extern clock of 12.5 KHz so the exit has a frequency of 50 Hz and it can control a servomotor."      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
-  how_it_works: | Receives an 8 bits entrance, which the first is conected from a clock made with logicgates. the next bit is linked follow the clock and like this sequentially, with or entrance that can be compare the input to form one number in binary language, for indicate the time. This has a led lights conected in the outputs to check the clock account.
-  Recibe una entrada de 8 bits de las cuales, la primera va conectada a un reloj hecho a base de compuertas lógicas, el siguiente bit va enlazado a la continjuacion del reloj y asi sucesivamente, con entradas or que permiten comparar los numeros de entrada hasta formar un solo numero escrito en binario que indica el tiempo. Lleva conectada unas luces led en los output que verifican la cuenta del reloj.
-      Explain how your project works
+  how_it_works: | "Receives an 8 bits entrance, which the first is conected from a clock made with logicgates. The next bit is linked to the continuation of the clock and so on, with OR entrance that allow comparing the entry numbers until forming just one number written in binary that indicates the time. This has led lights connected in the output to check the clock account.
+      Explain how your project works"
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
-  how_to_test:  | 
-  ingresar un valor en las entradas entre 0 y 255 para asi determinbar ekl ciclo de trabajo
-      Explain how to test your project
+  how_to_test:  | "Enter a value at the entries between 0 and 255 to determinate the working cycle.
+      Explain how to test your project"
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
-    - none
-    - none
-    - none
-    - none
-    - none
-    - none
-    - none
-    - none
+    - IN0
+    - IN1
+    - IN2
+    - IN3
+    - IN4
+    - IN5
+    - IN6
+    - IN7
 # A description of what the outputs do (e.g. status LED, SPI MISO, etc)
   outputs:
-    - segment a
-    - segment b
-    - segment c
-    - segment d
-    - segment e
-    - segment f
-    - segment g
-    - dot
+    - OUTC0
+    - OUTC1
+    - OUTC2
+    - OUTC3
+    - OUTC4
+    - OUTC5
+    - OUTC6
+    - OUTC7
 # A description of what the bidirectional I/O pins do (e.g. I2C SDA, I2C SCL, etc)
   bidirectional:
     - PWM
