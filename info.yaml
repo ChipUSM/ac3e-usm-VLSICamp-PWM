@@ -27,12 +27,12 @@ documentation:
   description:  "Regulates the power or velocity at which a device functions. This PWM was designed to work with an extern clock of 12.5 KHz so the exit has a frequency of 50 Hz and it can control a servomotor."      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
-  how_it_works: | Receives an 8 bits entrance, which the first is conected from a clock made with logicgates. The next bit is linked to the continuation of the clock and so on, with OR entrance that allow comparing the entry numbers until forming just one number written in binary that indicates the time. This has led lights connected in the output to check the clock account.
-      Explain how your project works
+  how_it_works: | 
+      Receives an 8 bits entrance, which the first is conected from a clock made with logicgates. The next bit is linked to the continuation of the clock and so on, with OR entrance that allow comparing the entry numbers until forming just one number written in binary that indicates the time. This has led lights connected in the output to check the clock account.
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
-  how_to_test:  | Enter a value at the entries between 0 and 255 to determinate the working cycle.
-      Explain how to test your project
+  how_to_test:  | 
+      Enter a value at the entries between 0 and 255 to determinate the working cycle.
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
